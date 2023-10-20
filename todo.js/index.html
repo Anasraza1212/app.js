@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://static.vecteezy.com/system/resources/previews/013/025/429/original/todo-task-list-check-time-white-line-icon-colorful-circle-background-free-vector.jpg'); background-size:cover; background-position: 100%; background-size: 100%;">
+
+   <div style=" display: flex; align-items: center;  justify-content: center; ">
+    <input  id="inputfield" type="text">
+    <button id="addtodo"  onclick="addtodo()" style="cursor: pointer;">AddItems</button>
+    <button onclick="deleteall()" id="delete" >Delete All</button>
+   </div>
+   
+<div  style=" display: flex;text-align:center; justify-content:center ;">
+    <ul id="list" type="circle">
+    </ul>
+
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
