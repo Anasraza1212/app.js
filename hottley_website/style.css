@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(2, 119, 119);
+}
+.mainheading{background-color:red; font-size:7.3vw; background-image: linear-gradient(45deg,#aa2b75, #05d3ee,rgb(12, 252, 12),rgb(255, 166, 2)); background-size: 100%; background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#subheading{color: #ca0679; font-family: pacifico,sans-serif; font-size:3.6vw; text-decoration:underline;}
+
+.button{
+    width: 20vw; font-size:1.4vw; padding-top: 2vh; padding-bottom: 2vh; margin-top: 3vh; padding-right: 3px; padding-left: 3px; font-family: marhey,sans-serif; font-weight: bolder; color:rgb(223, 16, 119); background-color: black; border-radius: 4px; cursor: pointer;
+
+    transition: all ease 0.7s;
+}
+
+
+.button:active{
+ scale: 0.8;
+}

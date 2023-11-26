@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(90deg,#6d2168,#2e7780,rgb(20, 155, 121));
+}
+.card-title{
+    font-size:2.5rem ; color:rgb(255, 130, 193);
+}
+.card{
+    background-color:rgb(99, 19, 88); margin: 5vw;
+    height:70vh;
+}
+.card-text{
+    color: deepskyblue; font-size: 1.5rem;
+}
+
+
+
+   img{
+    height: 73%;
+   }
+   h5{
+     height:60%;
+   }
+
+   p{
+    height: 100%;
+   }
+
+   .buttons{
+    color: rgb(5, 0, 143); background-color: transparent; border: none; text-decoration:underline; font-size:3vw; font-weight: lighter; font-family:Playfair Display,sans-serif;  margin: 1vw;   ; padding-bottom: 0vw; border: 1px solid transparent; margin-top: 5vw; border-radius: 9% ; transition: all ease 0.7s;
+   }
+
+   .buttons:hover{
+    background-image:linear-gradient(rgb(41, 145, 214),rgb(248, 141, 159)); color: rgb(111, 8, 143);
+    text-shadow: 5px 5px 4px rgb(219, 213, 213);
+   }
+
+   .buttons:active{
+    scale: 0.8;
+   }
