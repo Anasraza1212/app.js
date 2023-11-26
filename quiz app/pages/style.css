@@ -1,0 +1,10 @@
+.inp{
+    padding: 10px;
+width: 50%;
+color: white; font-size: 2vw;
+background-color: black;
+}
+#questionDiv{
+    border-radius: 4%;
+}
+

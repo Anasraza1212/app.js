@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="gettingQuestions()" style="background-color: coral;">
+
+        <div id="password" style="display:inline-block; justify-content:center; margin-top: 10%; background-color: coral">
+            <h3 style="color: rgb(21, 71, 73); font-size: 3vw;">Enter Your Password Here:</h3>
+            <div>
+                <input id="passwordd" type="password" placeholder="Enter Password" style="margin-top: 13%; ">
+            </div>
+            <div style="margin-top: 1.4%;">
+                <button onclick="submitPass()" style="color: aqua; background-color: black; font-size: 1.4vw;">Submit</button>
+            </div>
+        </div>
+
+        <div id="show" style="display: none;">
+
+
+
+            <div class="container bg-secondary p-6" id="questionDiv">
+                <div>
+
+                    <input id="question" placeholder="Add Question" type="text"
+                        class="inp w-100">
+                </div>
+                <div class="d-flex justify-content-between">
+
+                    <input id="opt1" placeholder="Add Option 1" type="text"
+                        class="inp">
+                    <input id="opt2" placeholder="Add Option 2" type="text"
+                        class="inp">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <input id="opt3" placeholder="Add Option 3" type="text"
+                        class="inp">
+                    <input id="opt4" placeholder="Add Option 4" type="text"
+                        class="inp">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <input id="correctopt" placeholder="Add Correct Option"
+                        type="text" class="inp">
+
+
+                    <button onclick="submitt()" style="width: 50%;border:
+                        none; padding: 10px; background-color: black; color: white; font-size: 2vw;">Submit</button>
+                </div>
+                    <button onclick="deleteallquestions()" style="width: 100%;border:1px solid whitesmoke; padding: 10px; background-color: black; color: white;">Delete All</button>
+            </div>
+            <div id="allquestions" class="container bg-warning text-dark fs-3 mt-5 p-5
+                rounded">
+
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script type="module" src="admin.js"></script>
+    </body>
+</html>
